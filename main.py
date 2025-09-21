@@ -14,7 +14,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = os.environ.get('8381749720:AAFi1jCnmNp8DGQiFX0zjwNf6IK__lPJFPY')
+# 🔐 КОНФИГУРАЦИЯ - ТОКЕН БОТА
+# ВСТАВЬТЕ ВАШ ТОКЕН МЕЖДУ КАВЫЧЕК 👇
+BOT_TOKEN = "8381749720:AAFi1jCnmNp8DGQiFX0zjwNf6IK__lPJFPY"
 
 class NeuroMentorDB:
     def __init__(self):
