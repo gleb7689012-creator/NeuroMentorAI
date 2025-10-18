@@ -1,6 +1,2 @@
-{ pkgs }: {
-  deps = [
-    pkgs.python3
-    pkgs.python3Packages.pip
-  ];
-}
+language = "python3"
+run = "python main.py"
